@@ -1,0 +1,96 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+/* CUSTOM PROPERTIES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recovery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #006837;
+    background-color: #F2F2F2;
+    text-transform: uppercase;
+    margin: 20px auto
+}
+
+.instructions {
+    background-color: #f9c582;
+    max-width: 520px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.pets-name {
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 20px
+}
+
+input {
+    width: 480px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: #98A991;
+    padding: 0 20px
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    height: 120px;
+    width: 120px;
+    color: #006837;
+    background-color: #F9C582;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+@media (max-width: 520px) {
+
+    h1 {
+        font-size: 24px;
+
+    }
+
+    .instructions {
+        width: 100%;
+    }
+
+    input {
+        width: 100%
+    }
+}
