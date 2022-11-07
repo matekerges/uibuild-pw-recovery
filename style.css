@@ -53,12 +53,13 @@ input {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     border: 0;
-    padding: 0;
+    padding: 0 20px;
+    color: #98A991;
 }
 
 ::placeholder {
     color: #98A991;
-    padding: 0 20px
+
 }
 
 button {
@@ -76,6 +77,7 @@ button {
     position: absolute;
     bottom: 20px;
     right: 20px;
+    cursor: pointer;
 
 }
 
